@@ -1,0 +1,92 @@
+network:
+  name: HistoricalScriptCreation
+  mode: centralized
+  node_id: historical-script-1
+  transports:
+  - type: http
+    config:
+      port: 8700
+      serve_studio: true
+      serve_mcp: true
+      serve_a2a: true
+  - type: grpc
+    config:
+      port: 8600
+      max_message_size: 104857600
+      compression: gzip
+      keepalive_time: 60000
+      keepalive_timeout: 30000
+  - type: a2a
+    config:
+      port: null
+      agent:
+        name: MultiAgentChatroom
+        description: Multi-agent chatroom with A2A support
+  manifest_transport: http
+  recommended_transport: grpc
+  encryption_enabled: false
+  discovery_interval: 10
+  discovery_enabled: true
+  max_connections: 20
+  connection_timeout: 30.0
+  retry_attempts: 3
+  heartbeat_interval: 60
+  agent_timeout: 180
+  message_queue_size: 1000
+  message_timeout: 30.0
+  message_routing_enabled: true
+  default_agent_group: guest
+  requires_password: false
+  agent_groups:
+    admin:
+      description: Administrator agents with full permissions
+      password_hash: 6051fc84a7a0d74c225fb18a496b09952da5642e60723ecae543298edd7d82d6
+      metadata:
+        permissions:
+        - all
+  mods:
+  - name: openagents.mods.workspace.messaging
+    enabled: true
+    config:
+      default_channels:
+      - name: general
+        description: 用户统一交互界面，所有关键信息汇总到此
+      - name: user-input
+        description: 用户提交创作主题和想法
+      - name: historical-research
+        description: AgentA发布历史资料和背景信息
+      - name: script-planning
+        description: AgentB发布剧本大纲和角色设定
+      - name: interactive-performance
+        description: AgentC与用户进行互动演绎
+      - name: script-output
+        description: AgentD发布最终专业剧本
+      - name: script-review
+        description: AgentE发布剧本审核报告
+      - name: final-script
+        description: AgentF发布优化后的最终版剧本
+      max_thread_depth: 5
+      thread_collapse_threshold: 10
+  initialized: true
+  created_by_version: 0.8.5
+network_profile:
+  name: 史迹寻踪 - AI历史剧本创作系统
+  description: 通过多Agent协作，将历史故事转化为专业剧本。AgentA收集史料，AgentB策划剧情，AgentC互动演绎，AgentD输出剧本。
+  tags:
+  - 历史
+  - 剧本创作
+  - Multi-Agent
+  - 教育
+  - 文化
+  categories:
+  - collaboration
+  country: Worldwide
+  capacity: 20
+  authentication:
+    type: none
+  host: 0.0.0.0
+  port: 8700
+log_level: INFO
+data_dir: ./data/multi-agent-chatroom
+runtime_limit: null
+shutdown_timeout: 30

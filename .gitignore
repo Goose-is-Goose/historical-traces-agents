@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+openagents_env/
+venv/
+ENV/
+
+# OpenAgents
+network.db
+*.log
+openagents.log
+/logs/
+/events/
+mods/openagents.mods.workspace.messaging/message_history*.json
+
+# API Keys (安全)
+# 注意：所有yaml文件中的API密钥应该替换为占位符
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+/tmp/
+*.tmp
