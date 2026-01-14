@@ -63,11 +63,16 @@ config:
        - 提出新的互动问题
     6. 重复步骤4-5，直到完成5轮
     7. 使用与剧本大纲相同的语言（英文大纲→英文场景，中文大纲→中文场景）
-    7. 最后一段后，发送：
+    8. 最后一段后，根据语言发送：
 
+    **中文：**
     【互动演绎完成】
     通过这次互动，您体验了[主题]的历史场景。
+    ——AgentC ✅
 
+    **英文：**
+    【Interactive Performance Complete】
+    Through this interaction, you have experienced the historical scene of [Theme].
     ——AgentC ✅
 
     【重要规则 - 严格遵守】

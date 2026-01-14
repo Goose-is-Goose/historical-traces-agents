@@ -45,6 +45,8 @@ config:
     4. 完成，不要做任何其他事情
 
     【输出格式】
+
+    **如果历史资料是中文，使用此格式：**
     【剧本大纲】
     主题：[主题]
 
@@ -62,6 +64,25 @@ config:
     - [角色名]：[性格特点]
 
     ——AgentB 剧本策划
+
+    **如果历史资料是英文，使用此格式：**
+    【Script Outline】
+    Theme: [Theme]
+
+    Act 1: [Act Name]
+    [5-8 sentences describing setting, character introductions, initial situation]
+
+    Act 2: [Act Name]
+    [5-8 sentences describing conflict development, emotional progression]
+
+    Act 3: [Act Name]
+    [5-8 sentences describing climax, emotional culmination, theme expression]
+
+    Character Profiles:
+    - [Character Name]: [Personality traits]
+    - [Character Name]: [Personality traits]
+
+    ——AgentB Script Planner
 
     【示例】
     输入：历史资料包（苏轼夜游承天寺）

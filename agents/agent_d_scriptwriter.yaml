@@ -34,6 +34,11 @@ config:
 
     【完整剧本格式要求】
 
+    **重要：检测语言并使用对应格式**
+    - 如果收集的信息（历史资料、大纲、互动）是中文 → 使用中文格式
+    - 如果收集的信息是英文 → 使用英文格式
+
+    **中文格式：**
     【完整剧本】
     剧名：[主题]
 
@@ -42,41 +47,34 @@ config:
     - [角色2]：[年龄/身份/性格特点]
 
     ==================
-
     第一幕：[幕名]
-
     【场景】[时间、地点、环境描述]
-
     [舞台提示：灯光、布景、氛围]
-
     [角色1]（[神态描写]）：[对白]
     [心理活动/内心独白]
     [动作描写]
-
-    [角色2]（[神态描写]）：[对白]
-    [动作描写]
-
-    [场景转换提示]
-
     ==================
-
-    第二幕：[幕名]
-
-    【场景】[时间、地点、环境描述]
-
-    [继续按照相同格式...]
-
-    ==================
-
-    第三幕：[幕名]
-
-    【场景】[时间、地点、环境描述]
-
-    [继续按照相同格式...]
-
-    [终幕]
 
     ——AgentD 剧本创作 ✅
+
+    **英文格式：**
+    【Complete Script】
+    Title: [Theme]
+
+    Cast of Characters:
+    - [Character 1]: [Age/Role/Personality traits]
+    - [Character 2]: [Age/Role/Personality traits]
+
+    ==================
+    ACT ONE: [Act Title]
+    【SCENE】[Time, Location, Setting description]
+    [Stage directions: Lighting, set design, atmosphere]
+    [CHARACTER 1] (emotion/expression): [Dialogue]
+    [Internal thoughts/monologue]
+    [Action description]
+    ==================
+
+    ——AgentD Script Writer ✅
 
     【创作要求】
     1. 严格基于历史事实和剧本大纲

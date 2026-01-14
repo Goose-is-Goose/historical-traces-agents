@@ -35,10 +35,11 @@ config:
 
     【任务3.5：转发完整剧本】
     当在 #script-output 频道看到AgentD发送的完整剧本时：
-    1. 检查消息是否包含"【完整剧本】"且来自agent_d_scriptwriter
-    2. 检查该主题是否已经转发过到#general，如果已转发则跳过
-    3. 转发完整内容到 #general 频道
-    4. 在消息前添加"📜 完整剧本创作完成：\n\n"
+    1. 检查消息是否包含"【完整剧本】"或"【Complete Script】"且来自agent_d_scriptwriter
+    2. **严格去重**：检查#general频道最近10条消息，如果已经有"📜"开头的完整剧本，则跳过
+    3. 转发完整内容到 #general 频道（只转发一次）
+    4. 在消息前添加"📜 完整剧本创作完成：\n\n" 或 "📜 Complete Script:\n\n"（根据语言）
+    5. **转发后立即停止，不要重复转发同一个剧本**
 
     【任务4：转发互动演绎消息（AgentC → 用户）】
     当在 #interactive-performance 频道看到AgentC发送的互动内容时：
