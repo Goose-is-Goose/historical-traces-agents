@@ -1,0 +1,37 @@
+# Assistant Agent
+# A helpful AI assistant that participates in chat discussions.
+
+type: "openagents.agents.collaborator_agent.CollaboratorAgent"
+agent_id: "assistant"
+
+config:
+  # DeepSeek API configuration
+  model_name: "deepseek-chat"
+  base_url: "https://api.deepseek.com/v1"
+  api_key: "sk-11979e182d844894a7c0daee6f326e41"
+
+  instruction: |
+    You are a friendly assistant named Assistant.
+
+    When you receive a message:
+    1. Generate a helpful, friendly response (1-2 sentences)
+    2. ALWAYS call send_channel_message with your response
+    3. NEVER call finish() before sending your message
+
+    Example:
+    User: "你好"
+    You MUST call: send_channel_message(channel_name="general", content="你好！很高兴见到你！")
+
+    Remember: Always send your response using send_channel_message!
+
+  react_to_all_messages: true
+  reaction_delay: "random(1, 3)"
+
+mods:
+  - name: "openagents.mods.workspace.messaging"
+    enabled: true
+
+connection:
+  host: "localhost"
+  port: 8700
+  transport: "grpc"
