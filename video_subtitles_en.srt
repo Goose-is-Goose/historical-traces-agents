@@ -1,0 +1,269 @@
+1
+00:00:00,000 --> 00:00:05,000
+Hello everyone! Today I'm excited to show you Historical Traces
+An innovative Multi-Agent system for script creation
+
+2
+00:00:05,000 --> 00:00:10,000
+In just a few minutes, you'll see how 5 specialized AI agents
+work together to create a complete, theater-ready script
+
+3
+00:00:10,000 --> 00:00:15,000
+Let's dive in with a classic Chinese poem theme:
+"The Peach Blossom Spring"
+
+4
+00:00:15,000 --> 00:00:20,000
+First, I've already started the system
+Opening the browser at localhost:8700
+
+5
+00:00:20,000 --> 00:00:25,000
+Here's our workspace interface
+On the left, you can see 6 channels
+
+6
+00:00:25,000 --> 00:00:30,000
+The general channel is our main interface
+where we interact with the system
+
+7
+00:00:30,000 --> 00:00:35,000
+Behind the scenes, we have 5 specialized agents:
+AgentG - The Coordinator, our single point of contact
+
+8
+00:00:35,000 --> 00:00:40,000
+AgentA - The Historian, collects historical research
+AgentB - The Script Planner, designs the story structure
+
+9
+00:00:40,000 --> 00:00:45,000
+AgentC - The Interactive Performer, engages users in creative decisions
+AgentD - The Script Writer, produces the final professional script
+
+10
+00:00:45,000 --> 00:00:50,000
+Now, let me input our theme in the general channel:
+"Theme: The Peach Blossom Spring"
+
+11
+00:00:50,000 --> 00:00:55,000
+Watch what happens... AgentG immediately responds:
+"Theme received, AgentA is collecting historical data"
+
+12
+00:00:55,000 --> 00:01:00,000
+AgentA, our historian, springs into action
+It's gathering comprehensive historical background
+
+13
+00:01:00,000 --> 00:01:05,000
+Including Tao Yuanming's biography from Eastern Jin Dynasty
+The historical context of 421 AD
+
+14
+00:01:05,000 --> 00:01:10,000
+Social turmoil and escapism themes
+Literary analysis and cultural significance
+
+15
+00:01:10,000 --> 00:01:15,000
+And there we go! AgentA has published
+a comprehensive 1,200-word historical research package
+
+16
+00:01:15,000 --> 00:01:20,000
+You can see details about the poet, the era
+and the meaning behind this utopian story
+
+17
+00:01:20,000 --> 00:01:25,000
+Now AgentB, our script planner, takes over
+Based on the historical research
+
+18
+00:01:25,000 --> 00:01:30,000
+It's designing a three-act structure:
+Act 1 - Fisherman discovers the hidden valley
+
+19
+00:01:30,000 --> 00:01:35,000
+Act 2 - Interactions with the utopian villagers
+Act 3 - Departure and the failed return
+
+20
+00:01:35,000 --> 00:01:40,000
+AgentB has also created character profiles
+mapped out the emotional arcs
+
+21
+00:01:40,000 --> 00:01:45,000
+And identified key dramatic moments
+This outline is now ready for the interactive phase
+
+22
+00:01:45,000 --> 00:01:50,000
+Here's where it gets interesting
+The interactive phase with AgentC!
+
+23
+00:01:50,000 --> 00:01:55,000
+AgentC splits the outline into 5 scenes
+and asks me to make creative decisions for each one
+
+24
+00:01:55,000 --> 00:02:00,000
+Scene 1 appears:
+"The fisherman travels along the stream, seeing peach blossoms..."
+
+25
+00:02:00,000 --> 00:02:05,000
+Question: How should we portray the fisherman's feelings?
+I'll choose option B - attracted by the beauty, decides to explore
+
+26
+00:02:05,000 --> 00:02:10,000
+Watch what happens... AgentC receives my choice
+and immediately presents Scene 2
+
+27
+00:02:10,000 --> 00:02:15,000
+"The fisherman discovers a narrow opening
+He enters and finds a whole new world..."
+
+28
+00:02:15,000 --> 00:02:20,000
+This continues for 5 rounds total
+Each choice shapes the final script
+
+29
+00:02:20,000 --> 00:02:25,000
+Notice how AgentC waits for my response before continuing
+This is our innovative 4-layer filtering mechanism
+
+30
+00:02:25,000 --> 00:02:30,000
+It ensures strict "one question, one answer" flow
+preventing the agent from auto-advancing
+
+31
+00:02:30,000 --> 00:02:35,000
+I'll quickly complete the remaining rounds...
+Making choices that shape the narrative
+
+32
+00:02:35,000 --> 00:02:40,000
+After the 5th interaction
+AgentD - our script writer - finally speaks!
+
+33
+00:02:40,000 --> 00:02:45,000
+Throughout the entire process
+AgentD has been silently collecting everything
+
+34
+00:02:45,000 --> 00:02:50,000
+The historical research from AgentA
+The three-act structure from AgentB
+
+35
+00:02:50,000 --> 00:02:55,000
+And all 5 of my creative decisions
+Now it integrates all this information
+
+36
+00:02:55,000 --> 00:03:00,000
+Into a complete, professional script
+And here it is! A 2,600-word theater script
+
+37
+00:03:00,000 --> 00:03:05,000
+Including character list with detailed profiles
+Scene descriptions and stage directions
+
+38
+00:03:05,000 --> 00:03:10,000
+Dialogue for all characters
+Psychological descriptions and emotional cues
+
+39
+00:03:10,000 --> 00:03:15,000
+Stage lighting and blocking notes
+This is production-ready
+
+40
+00:03:15,000 --> 00:03:20,000
+So what makes this system special
+from a technical perspective?
+
+41
+00:03:20,000 --> 00:03:25,000
+First: Strict Agent Specialization
+Each of the 5 agents has a clear role
+
+42
+00:03:25,000 --> 00:03:30,000
+And only subscribes to necessary channels
+This channel isolation reduces token consumption by over 50%
+
+43
+00:03:30,000 --> 00:03:35,000
+Second: State Machine Control
+AgentC implements a 4-layer filtering system
+
+44
+00:03:35,000 --> 00:03:40,000
+Content validation, Source verification
+Marker detection, State consistency check
+
+45
+00:03:40,000 --> 00:03:45,000
+This ensures AgentC never advances without user input
+Solving a common Multi-Agent challenge
+
+46
+00:03:45,000 --> 00:03:50,000
+Third: Silent Collection Pattern
+AgentD observes the entire process without interrupting
+
+47
+00:03:50,000 --> 00:03:55,000
+Then delivers one high-quality final output
+More efficient than constant back-and-forth
+
+48
+00:03:55,000 --> 00:04:00,000
+Fourth: Central Coordinator Architecture
+AgentG acts as a hub
+
+49
+00:04:00,000 --> 00:04:05,000
+Managing all task distribution and result aggregation
+Users only interact with one channel - simple and clean
+
+50
+00:04:05,000 --> 00:04:10,000
+These innovations bring token usage
+from 500,000+ down to 200,000-300,000 per session
+
+51
+00:04:10,000 --> 00:04:15,000
+So that's Historical Traces
+A Multi-Agent system for collaborative script creation
+
+52
+00:04:15,000 --> 00:04:20,000
+Use cases include: Education - Students experience history interactively
+Creative Writing - Rapid professional script generation
+
+53
+00:04:20,000 --> 00:04:25,000
+And Cultural Industry - Content for film, theater, and documentaries
+The entire codebase is open-source on GitHub
+
+54
+00:04:25,000 --> 00:04:30,000
+Check out the link in the description!
+Thanks for watching, and I hope you enjoyed seeing OpenAgents in action!

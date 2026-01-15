@@ -1,0 +1,20 @@
+# Demo Video Link for OpenAgents PR Hackathon
+
+YouTube URL: https://youtu.be/oF8Aa1374eE
+
+Video Details:
+- Title: Historical Traces - Multi-Agent Script Creation System | OpenAgents PR Hackathon
+- Duration: 2:52
+- Language: Chinese with English subtitles
+- Demo Theme: The Peach Blossom Spring (桃花源记)
+- Visibility: Unlisted
+
+Demonstrates:
+✓ 5-agent collaboration workflow
+✓ Channel-based communication
+✓ Interactive user engagement (5 rounds)
+✓ Professional script generation
+✓ 4-layer filtering mechanism
+✓ Central coordinator pattern
+✓ Token optimization (50%+ reduction)
+✓ Silent collection mode

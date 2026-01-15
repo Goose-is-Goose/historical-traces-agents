@@ -1,0 +1,118 @@
+═══════════════════════════════════════════════════════════════
+YouTube 视频信息 - 直接复制使用
+═══════════════════════════════════════════════════════════════
+
+📌 VIDEO LINK (已获取):
+https://youtu.be/oF8Aa1374eE
+
+═══════════════════════════════════════════════════════════════
+✅ TITLE (标题) - 复制下面这行:
+═══════════════════════════════════════════════════════════════
+
+Historical Traces - Multi-Agent Script Creation System | OpenAgents PR Hackathon
+
+
+═══════════════════════════════════════════════════════════════
+✅ DESCRIPTION (描述) - 复制下面所有内容:
+═══════════════════════════════════════════════════════════════
+
+🎭 Historical Traces - AI Historical Script Creation System
+
+An innovative Multi-Agent system that transforms historical themes into professional scripts through AI collaboration. Built with OpenAgents framework for the PR Hackathon 2026.
+
+🤖 5 Specialized Agents:
+• AgentG (Coordinator) - Central hub for user interaction
+• AgentA (Historian) - Collects comprehensive historical research
+• AgentB (Script Planner) - Designs three-act dramatic structure
+• AgentC (Interactive Performer) - 5 rounds of user engagement
+• AgentD (Script Writer) - Generates complete professional script
+
+💡 Technical Highlights:
+✓ 4-layer filtering mechanism for strict state control
+✓ Channel isolation reduces token consumption by 50%+
+✓ Silent collection pattern for efficient output generation
+✓ Central coordinator architecture for simplified user experience
+✓ Hybrid collaboration model (Linear + Bidirectional + Silent)
+
+🎯 Use Cases:
+• Education: Students experience history interactively
+• Creative Writing: Rapid professional script generation
+• Cultural Industry: Content creation for film, theater, and documentaries
+
+🔗 GitHub Repository (Open Source):
+https://github.com/Goose-is-Goose/historical-traces-agents
+
+📚 Technical Stack:
+• OpenAgents v0.8.5
+• DeepSeek Chat LLM
+• Python 3.9+
+• Channel-based messaging architecture
+
+🏆 Submission for OpenAgents PR Hackathon 2026
+
+Demo Theme: The Peach Blossom Spring (桃花源记)
+Video Language: Chinese with English subtitles
+
+#OpenAgents #MultiAgent #AI #ScriptWriting #MachineLearning #Education #OpenSource #Hackathon #LLM #AgentCollaboration
+
+
+═══════════════════════════════════════════════════════════════
+✅ TAGS (标签) - 在后续页面添加，复制下面内容:
+═══════════════════════════════════════════════════════════════
+
+OpenAgents
+Multi-Agent
+AI
+Artificial Intelligence
+Script Writing
+Historical Education
+LLM
+Python
+Agent Collaboration
+OpenAgents Hackathon
+Multi-Agent System
+Creative Writing
+Educational Technology
+Open Source
+DeepSeek
+Agent Network
+
+
+═══════════════════════════════════════════════════════════════
+📋 UPLOAD CHECKLIST (上传检查清单)
+═══════════════════════════════════════════════════════════════
+
+Step 1 - Details:
+  ✅ Title: 已复制
+  ✅ Description: 已复制
+
+Step 2 - Video elements:
+  ⬜ Upload subtitles: video_subtitles_en.srt
+  ⬜ Language: English
+
+Step 3 - Checks:
+  ⬜ Wait for YouTube processing
+
+Step 4 - Visibility:
+  ⬜ Select: Unlisted (推荐) 或 Public
+  ⬜ Click: Publish
+
+
+═══════════════════════════════════════════════════════════════
+📌 IMPORTANT NOTES
+═══════════════════════════════════════════════════════════════
+
+1. 字幕文件位置:
+   /Users/yasmine/AI比赛/Multi-Agent Hackathon/my_network/video_subtitles_en.srt
+
+2. 可见性建议:
+   选择 "Unlisted" 即可（比赛提交够用，不会被随机观众看到）
+
+3. 发布后:
+   - 复制最终的YouTube链接
+   - 告诉我，我会更新项目文件
+
+
+═══════════════════════════════════════════════════════════════
+✨ 准备完毕！现在可以复制粘贴到YouTube了
+═══════════════════════════════════════════════════════════════
